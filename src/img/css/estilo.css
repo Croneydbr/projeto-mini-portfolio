@@ -1,5 +1,5 @@
 body{
-    background-image: url(src/img/fundo-site.jpg);
+    background-image: url(../fundo-site.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,9 +21,6 @@ body{
     border-radius: 10px;
 }
 
-.window img{
-    width: 30px;
-}
 
 .card .personalInfo{
     padding-top: 20px;
@@ -38,4 +35,33 @@ body{
     height: 96px;
     border-radius: 50px;
     border: 4px solid #02d08f;
+}
+
+.card .personalInfo .name{
+    font-size: 26px;
+}
+
+.card .personalInfo .office{
+    font-size: 20px;
+    color: #b8bbc5;
+}
+
+.card .content{
+    margin-top: 15px;
+}
+
+.card .windows{
+    display: flex;
+}
+
+.card .windows .window{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.card .window img{
+    width: 30px;
 }
