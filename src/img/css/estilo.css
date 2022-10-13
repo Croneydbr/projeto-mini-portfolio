@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-position: center;
     
-    font-family: 'VT323' monospace;
+    font-family: 'VT323', monospace;
     color: #f3f3f3;
     font-size: 18px;
     display: flex;
